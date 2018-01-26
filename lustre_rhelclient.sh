@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# ./lustre_client.sh -n NODETYPE -i NODEINDEX -d NODETYPEDISKCOUNT -m MGSIP -l LOCALIP -f FILESYSTEMNAME
-# ./lustre_client.sh -n rhel7 -i 0 -d 0 -m 10.7.40.4 -l 10.7.41.4 -f sasdata1
+# ./lustre_rhelclient.sh -n NODETYPE -i NODEINDEX -d NODETYPEDISKCOUNT -m MGSIP -l LOCALIP -f FILESYSTEMNAME
+# ./lustre_rhelclient.sh -n rhel7 -i 0 -d 0 -m 10.7.40.4 -l 10.7.41.4 -f sasdata1
 
 log()
 {
